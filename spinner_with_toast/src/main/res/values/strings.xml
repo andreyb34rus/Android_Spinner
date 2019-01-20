@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Spinner_with_toast</string>
+
+    <string-array name="auto_brands">
+        <item>BMV</item>
+        <item>Mersedes</item>
+        <item>Audi</item>
+        <item>Ford</item>
+        <item>Pegout</item>
+    </string-array>
+</resources>
