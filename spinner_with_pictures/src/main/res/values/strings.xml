@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">spinner_with_ic_launcher</string>
+    <string name="app_name">Spinner_with_pictures</string>
     <string-array name="auto_brands">
         <item>BMV</item>
         <item>Mersedes</item>

@@ -1,11 +1,13 @@
 package com.example.spinner_with_ic_launcher;
 
 import android.app.Activity;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends Activity {
@@ -27,7 +29,7 @@ public class MainActivity extends Activity {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 String[] strArray = getResources().getStringArray(R.array.auto_brands);
-                Toast toast= Toast.makeText(getApplicationContext(),strArray[position],Toast.LENGTH_LONG);
+                Toast toast= Toast.makeText(getApplicationContext(),strArray[position],Toast.LENGTH_SHORT);
                 toast.show();
             }
 
